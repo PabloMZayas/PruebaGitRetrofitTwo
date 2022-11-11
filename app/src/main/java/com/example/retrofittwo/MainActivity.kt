@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 binding.textViewLista.text=myStringBuilder
+                //cambio
             }
 
             override fun onFailure(call: Call<List<MyData2Item>?>, t: Throwable) {
